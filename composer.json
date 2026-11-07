@@ -1,0 +1,24 @@
+{
+    "name": "alfacode-team/hkm-plugin-platform-tasks",
+    "description": "Super-admin task board: tasks, phases and assignment. Platform-scoped, never school-scoped.",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": ">=8.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Plugins\\PlatformTasks\\": ""
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Plugins\\PlatformTasks\\Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.0"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}

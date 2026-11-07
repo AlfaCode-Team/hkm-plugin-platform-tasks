@@ -1,0 +1,20 @@
+{
+    "name": "platform-tasks",
+    "version": "0.1.0",
+    "kernel": "^1.19.0",
+    "solves": "platform.tasks",
+    "type": "module",
+    "requires": [
+        "database.management",
+        "audit.trail"
+    ],
+    "exposes": [
+        "Plugins\\PlatformTasks\\API\\Contracts\\PlatformTaskContract"
+    ],
+    "routes": [],
+    "emits": [],
+    "listens": [],
+    "files": [],
+    "documentation": "Super-admin task board: tasks, phases and assignment. Platform-scoped, never school-scoped.",
+    "config": []
+}
